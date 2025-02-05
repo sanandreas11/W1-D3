@@ -22,7 +22,9 @@ header {
     background-color: #fdfbf1;
     color: #004b4b;
     padding: 1em;
-    margin: 0;;   
+    margin: 0;
+    border-style: solid none none; 
+    border-color: #ffd56c;
 }
 span {
     font-weight: bold;
@@ -40,9 +42,15 @@ span {
  text-align: left;
 }
 p.feature {
-    color: #b54610;
-    margin: 0%; 
+    color: #b54610; 
+    margin:0;
+    padding-left: 1em;
     text-align: left;
+    font-weight: bold;
+}
+div.feature {
+  border-left: #ffeab5;
+  border-style: none none none solid;
 }
 a {
     color: #0f7777;
