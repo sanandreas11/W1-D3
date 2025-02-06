@@ -57,3 +57,6 @@ div.feature {
 a {
     color: #0f7777;
 }
+#featured-link {
+    text-align: left;
+}
